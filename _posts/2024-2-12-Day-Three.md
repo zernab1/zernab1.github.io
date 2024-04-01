@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Day 3 of '#100DaysofCode'
+title: Pandas Refresher
 ---
 
-Ah, I ended up taking a break from this during the weekend. 
+Ah, I took a break from the daily posting for this weekend. I think referring to this as a "100daysofcode" challenge is not accurate anymore haha.
 
-Today I wanted to review some pandas basics, which feels rudimentary but at the same time I've been worried that copy-pasting basic solutions has been causing me to not truly remember syntax. I want to make sure I *do* understand, in case I have to implement something or speak on it without access to online resources in an interview.
+Anyway, today I wanted to review some pandas basics, which feels rudimentary but at the same time I've been worried that copy-pasting basic solutions has been causing me to not truly remember syntax. I want to make sure I *do* understand, in case I have to implement something or speak on it without access to online resources in an interview.
 
 Not so much memorization, but more so a better grasp on the fundamentals. Following along 'Intro to Pandas' on Leetcode and I have been truly humbled, lol. Yall, tell me why I forgot the syntax for passing in headers for DataFrames🤦‍♂️
 
@@ -65,6 +65,10 @@ And you want to combine it with this dataframe, that contains the same columns
 You would do `df3 = pd.concat([df1, df2], ignore_index=True)`
 
 By default the axis=0, for vertical. But if you were adding on new columns with data to a df, you would set axis=1.
+
+---
+
+Keeping these posts short is probably the key way to stay consistent with posting, (and also to prevent from taking too much time away from the actual learning process). So that's it for now! Til next time~
 
 
 
